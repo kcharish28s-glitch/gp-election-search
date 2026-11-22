@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>గ్రామ పంచాయతీ ఎన్నికల నియమాల శోధన</title>
+<meta name="description" content="AP గ్రామ పంచాయతీ ఎన్నికల Manual of Election Law (PR) 2026 మరియు RO Handbook 2026 లో వెతకండి.">
+<style>
+:root{--bg:#f7f6f2;--card:#fff;--ink:#1d2a2a;--mut:#5c6b6b;--line:#dcd9cf;--acc:#0f6b5c;--acc2:#e8f3f0;--warn:#8a5a00;--warnbg:#fff4dc;--hl:#ffe58a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 "Noto Sans Telugu","Nirmala UI","Gautami",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{background:var(--acc);color:#fff;padding:20px 16px 22px}
+.wrap{max-width:860px;margin:0 auto}
+h1{margin:0 0 4px;font-size:1.35rem;line-height:1.4}
+header p{margin:0;opacity:.92;font-size:.95rem}
+.disc{background:var(--warnbg);color:var(--warn);border:1px solid #efd9a3;border-radius:10px;padding:10px 14px;margin:16px 0;font-size:.9rem}
+.sbox{position:sticky;top:0;background:var(--bg);padding:12px 0 8px;z-index:5}
+.srow{display:flex;gap:8px}
+input[type=search]{flex:1;font:inherit;padding:13px 14px;border:2px solid var(--line);border-radius:12px;background:#fff;min-width:0}
+input[type=search]:focus{outline:none;border-color:var(--acc)}
+button{font:inherit;cursor:pointer}
+.go{background:var(--acc);color:#fff;border:0;border-radius:12px;padding:0 18px}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.chip{border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:999px;padding:5px 13px;font-size:.88rem}
+.chip.on{background:var(--acc);border-color:var(--acc);color:#fff}
+.hint{color:var(--mut);font-size:.88rem;margin:6px 0 0}
+h2{font-size:1.1rem;margin:22px 0 10px}
+.faq{background:var(--card);border:1px solid var(--line);border-radius:12px;margin:8px 0;overflow:hidden}
+.faq summary{padding:13px 15px;cursor:pointer;font-weight:600;list-style:none;display:flex;gap:10px;align-items:flex-start}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::before{content:"+";color:var(--acc);font-weight:700;flex:none;width:1em}
+.faq[open] summary::before{content:"\2212"}
+.faq .body{padding:0 15px 14px 40px}
+.faq .body p{margin:6px 0}
+.faqcat{margin:18px 0 4px;font-size:1rem;color:var(--acc)}
+#faqchips{margin:8px 0}
+.faq ul{margin:6px 0;padding-left:20px}
+.note{background:var(--warnbg);color:var(--warn);border-radius:8px;padding:7px 11px;font-size:.9rem;margin:8px 0}
+.src{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.src span{background:var(--acc2);color:var(--acc);border-radius:6px;padding:2px 8px;font-size:.78rem}
+.res{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 15px;margin:10px 0}
+.meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:.8rem;color:var(--mut);margin-bottom:6px}
+.badge{background:var(--acc);color:#fff;border-radius:6px;padding:1px 8px;font-weight:600}
+.badge.m{background:#3d5a99}
+.badge.c{background:#8a5a14}
+.badge.p{background:#6b3d8a}
+.res .t{font-family:Georgia,"Times New Roman",serif;font-size:.98rem;line-height:1.6;white-space:pre-wrap;word-wrap:break-word}
+mark{background:var(--hl);padding:0 1px;border-radius:2px}
+.cnt{color:var(--mut);font-size:.88rem;margin:10px 0 0}
+.empty{text-align:center;color:var(--mut);padding:30px 10px}
+footer{color:var(--mut);font-size:.82rem;padding:18px 0 40px}
+@media (max-width:520px){h1{font-size:1.15rem}.faq .body{padding-left:15px}}
+.tabs{display:flex;gap:8px;margin:14px 0 4px}
+.tab{flex:1;border:2px solid var(--line);background:#fff;color:var(--ink);border-radius:12px;padding:10px 8px;font-weight:600}
+.tab.on{background:var(--acc);border-color:var(--acc);color:#fff}
+.flow{background:var(--acc2);border-radius:10px;padding:10px 14px;font-size:.92rem;margin:8px 0}
+details.ix{background:var(--card);border:1px solid var(--line);border-radius:12px;margin:8px 0;overflow:hidden}
+details.ix[hidden]{display:none}
+details.ix summary{padding:11px 14px;cursor:pointer;list-style:none;display:flex;gap:10px;align-items:flex-start}
+details.ix summary::-webkit-details-marker{display:none}
+.ixn{flex:none;background:var(--acc);color:#fff;border-radius:8px;padding:2px 9px;font-size:.82rem;font-weight:600;white-space:nowrap}
+.ixt{flex:1;min-width:0}.ixt small{display:block;color:var(--mut);font-size:.8rem;line-height:1.4}
+.ixp{flex:none;text-align:right;color:var(--mut);font-size:.76rem;line-height:1.4}
+details.ix .body{padding:0 14px 14px}
+details.ix .body p{margin:4px 0}
+.tag{display:inline-block;background:var(--acc2);color:var(--acc);border-radius:6px;padding:2px 8px;font-size:.78rem}
+.rd{border:1px solid var(--acc);background:#fff;color:var(--acc);border-radius:8px;padding:4px 10px;font-size:.85rem;margin-left:6px}
+.txt{margin-top:10px;max-height:420px;overflow:auto;border-top:1px dashed var(--line);padding-top:8px}
+.txt .pg{font-size:.76rem;color:var(--mut);margin-top:8px}
+.txt .t{font-family:Georgia,"Times New Roman",serif;font-size:.92rem;line-height:1.55;white-space:pre-wrap}
+@media (max-width:520px){.ixp{display:none}}
+
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<h1>గ్రామ పంచాయతీ ఎన్నికల నియమాల శోధన</h1>
+<p>AP రాష్ట్ర ఎన్నికల సంఘం: Manual of Election Law (PR) 2026, RO Handbook (GP) 2026 మరియు SEC Compendium of Instructions 2026 మరియు Presiding Officer Handbook 2026</p>
+</div></header>
+
+<div class="wrap">
+<div class="disc">ఇది అనధికారిక సహాయక సాధనం. సమాచారం పైన పేర్కొన్న నాలుగు SEC పుస్తకాల (మరియు చట్టేతర ఫారాల PDF) నుంచి తీసుకున్నది. తుది నిర్ణయానికి ముందు SEC లేదా జిల్లా ఎన్నికల అధికారి (DEA) అధికారిక ఉత్తర్వులతో సరిచూసుకోండి.</div>
+
+<div class="tabs"><button type="button" class="tab on" data-t="s">శోధన</button><button type="button" class="tab" data-t="i">RO Handbook విషయ సూచిక</button><button type="button" class="tab" data-t="k">Compendium సూచిక</button><button type="button" class="tab" data-t="m">చట్టం (Manual) సూచిక</button><button type="button" class="tab" data-t="o">Presiding Officer సూచిక</button><button type="button" class="tab" data-t="f">చట్టేతర ఫారాలు</button></div>
+<div id="sview">
+<div class="sbox">
+<form class="srow" id="f" role="search">
+<input type="search" id="q" placeholder="ఉదా: proposer, నామినేషన్ తిరస్కరణ, Form-IX, symbol, ఉపసంహరణ" autocomplete="off" aria-label="శోధన">
+<button class="go" type="submit">వెతుకు</button>
+</form>
+<div class="chips" id="chips">
+<button class="chip on" data-s="all" type="button">అన్నీ</button>
+<button class="chip" data-s="h" type="button">RO Handbook</button>
+<button class="chip" data-s="m" type="button">Manual (చట్టం, నియమాలు)</button>
+<button class="chip" data-s="c" type="button">Compendium (SEC సర్క్యులర్లు)</button>
+<button class="chip" data-s="p" type="button">PO Handbook (పోలింగ్ రోజు)</button>
+</div>
+<p class="hint">తెలుగులో లేదా English లో వెతకవచ్చు. పత్రాలు English లో ఉన్నాయి, కాబట్టి ఫలితాలు English లో వస్తాయి.</p>
+</div>
+
+<div id="faqs">
+<h2>తరచుగా అడిగే ప్రశ్నలు</h2>
+<div id="faqchips" class="chips"></div>
+<div id="faqlist"></div>
+</div>
+
+<div id="results" hidden>
+<p class="cnt" id="cnt"></p>
+<div id="faqhits"></div>
+<div id="list"></div>
+</div>
+
+</div>
+<div id="iview" hidden>
+<h2>RO Handbook లో ఏముంది?</h2>
+<div id="idxbody"></div>
+</div>
+<div id="kview" hidden>
+<h2>Compendium లో ఏముంది?</h2>
+<div id="cmpbody"></div>
+</div>
+
+<div id="mview" hidden>
+<h2>Manual of Election Law లో ఏముంది?</h2>
+<div id="manbody"></div>
+</div>
+
+<div id="oview" hidden>
+<h2>Presiding Officer Handbook లో ఏముంది?</h2>
+<div id="pobody"></div>
+</div>
+
+<div id="fview" hidden>
+<h2>చట్టేతర ఫారాలు (Non-Statutory Forms) 2026</h2>
+<div id="frmbody"></div>
+</div>
+
+<footer>ఆధారం: AP State Election Commission, Manual of Election Law (Panchayat Raj) 2026; Handbook for Returning Officers, Elections to Gram Panchayats 2026; Compendium of Instructions, Ordinary Elections to Gram Panchayats 2026; Handbook for Presiding Officers (Ballot Boxes) 2026. "PDF పేజీ" అంటే PDF ఫైల్‌లోని పేజీ సంఖ్య, ముద్రిత పేజీ నంబర్ కాదు.</footer>
+</div>
+
+<script src="data.js"></script>
+<script src="comp.js"></script>
+<script src="po.js"></script>
+<script src="man.js"></script>
+<script src="forms.js"></script>
+<script src="faq.js"></script>
+<script src="faq2.js"></script>
+<script src="faq3.js"></script>
+<script src="search.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
